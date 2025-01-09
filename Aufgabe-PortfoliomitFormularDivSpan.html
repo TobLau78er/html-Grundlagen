@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Fantasy-Portfolio</title>
+<head>
+<style>
+    body {
+        background-color: rgb(221, 253, 255);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #content-wrapper {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+</style>
+<style>
+    #ÜberschriftH1 {
+    background-color: rgb(158, 255, 176);
+    color: rgb(0, 0, 100);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1200px;
+    }
+</style>
+<style>
+    #Portfolio {
+    background-color: rgb(290, 243, 146);
+    color: rgb(112, 0, 112);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    }
+</style>
+<style>
+    #BildDigiman img {
+    max-width: 90;
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    }
+</style>
+<style>
+    #NachrichtAnDigiman {
+    background-color: rgb(290, 243, 146);
+    color: rgb(112, 0, 112);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    }
+</style>
+<style>
+    #NachrichtAnDigiman textarea {
+    width: 80%;
+    max-width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    }
+</style>
+<style>
+    #NachrichtAnDigiman input[type="submit"] {
+    width: 100px;
+    max-width: 100px;
+    min-width: 30px;
+    display: block;
+    margin: 10px auto;
+    }
+</style>
+<style>
+    #Impressum {
+    background-color: rgb(158, 255, 176);
+    color: rgb(0, 0, 100);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    }
+    @media (max-width: 768px) {
+        #ÜberschiriftH1,
+        #Impressum {
+            padding: 15px;
+            width: 95%;
+        }
+        #Portfolio,
+            #NachrichtAnDigiman {
+                padding: 15px;
+                max-width: 90%;
+            }
+            #NachrichtAnDigiman textarea {
+                height: 120px;
+            }
+            #NachrichtAnDigiman input[type="submit"] {
+                width: 100%;
+            }
+    @media (min-width: 1200px) {
+        #ÜberschriftH1,
+        #Impressum {
+            padding: 30px;
+            width: 80%;
+        }
+    }
+</style>
+<body>
+    <div id="content-wrapper">
+    <div id="ÜberschriftH1" name="ÜberschriftH1">
+    <h1><b>Ein Fantasy-Character</b></h1>
+    </div>
+    <br>
+    <div id="Portfolio" name="Portfolio">
+    <p><b>Name: </b>Quanten-Man.</p>    
+    <p><b>Wohnort: </b>Planet X.</p> 
+    <p><b>Beruf: </b>CIO von Planet X.</p>
+    <p><b>Hobby: </b>Jonglieren mit Nullen und Einsen.</p>
+    <p><b>Besonderheit: </b>Quantenchip im Hirn verpflanzt.</p>
+    <p><b>Motto: </b>Den Code entschlüsseln – mit jeder Berechnung.<p/>  
+    <br>
+    <h3></p><b>Nehme jetzt direkt Kontakt zu ihm auf!</b></p>
+    </div>
+    <br>
+    <div id="BildDigiman" name="BildDigiman">
+        <img src="Digiman.webp" alt="DigimanFromMelrose">
+        <br>
+    </div>
+    <br>
+    <div id="NachrichtAnDigiman" name="NachrichtAnDigiman" >
+        <h3><p><b>Schreibe jetzt eine Nachricht an den Quanten-Man:</b></p>
+        <textarea rows="10" cols="90" maxlength="500" placeholder="Nachricht bitte hier eingeben (max. 500 Zeichen)." required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Absenden">        
+    </div>
+    <br>
+    <div id="Impressum" name="Impressum" >
+        <p><b>Impressum:</b></p>
+        <p>2025 - Tobias Lauer - LuG</p>        
+    </div>
+</body>
+</html>
